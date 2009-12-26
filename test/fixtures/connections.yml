@@ -1,0 +1,23 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  business_key: MyString
+  server: MyString
+  database: MyString
+  user: MyString
+  password: MyString
+  environment: MyString
+  shared: 
+  writeable: 
+
+two:
+  name: MyString
+  business_key: MyString
+  server: MyString
+  database: MyString
+  user: MyString
+  password: MyString
+  environment: MyString
+  shared: 
+  writeable: 

@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  desc: MyString
+  version: 9.99
+  require_exp: MyString
+
+two:
+  name: MyString
+  desc: MyString
+  version: 9.99
+  require_exp: MyString

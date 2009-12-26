@@ -1,0 +1,23 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  desc: MyString
+  business_key: MyString
+  source_sql: MyText
+  version: 9.99
+  connection_id: 1
+  role_id: 1
+  user_id: MyString
+  last_run_dt: 2009-12-26 10:11:58
+
+two:
+  name: MyString
+  desc: MyString
+  business_key: MyString
+  source_sql: MyText
+  version: 9.99
+  connection_id: 1
+  role_id: 1
+  user_id: MyString
+  last_run_dt: 2009-12-26 10:11:58

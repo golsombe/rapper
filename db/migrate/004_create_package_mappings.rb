@@ -1,17 +1,13 @@
 class CreatePackageMappings < ActiveRecord::Migration
   def self.up
     create_table :package_mappings do |t|
-      t.string :name
-      t.string :desc
-      t.string :business_key
-      t.text :source_sql
-      t.decimal :version
-      t.integer :connection_id
-      t.integer :role_id
-      t.string :user_id
-      t.datetime :last_run_dt
-
-      t.timestamps
+	t.string :source_row_key
+	t.string :destination_value
+	t.string :destination_field
+	t.datetime :start_dt
+	t.datetime :end_dt
+	t.integer :package_source_id
+	t.timestamps
     end
   end
 

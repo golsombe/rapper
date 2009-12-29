@@ -7,6 +7,7 @@ class CreatePackageMappings < ActiveRecord::Migration
 	t.datetime :start_dt
 	t.datetime :end_dt
 	t.integer :package_source_id
+	t.integer :db_connection_id
 	t.timestamps
     end
   end

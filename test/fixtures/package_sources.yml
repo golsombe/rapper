@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  connection_id: 1
+  source_sql: MyText
+  version: 9.99
+
+two:
+  connection_id: 1
+  source_sql: MyText
+  version: 9.99

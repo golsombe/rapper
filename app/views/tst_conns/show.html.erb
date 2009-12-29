@@ -1,0 +1,13 @@
+<p>
+  <b>Name:</b>
+  <%=h @tst_conn.name %>
+</p>
+
+<p>
+  <b>Connection:</b>
+  <%=h @tst_conn.connection_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_tst_conn_path(@tst_conn) %> |
+<%= link_to 'Back', tst_conns_path %>

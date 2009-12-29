@@ -1,0 +1,22 @@
+<h1>Listing tst_conns</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Connection</th>
+  </tr>
+
+<% @tst_conns.each do |tst_conn| %>
+  <tr>
+    <td><%=h tst_conn.name %></td>
+    <td><%=h connection %></td>
+    <td><%= link_to 'Show', tst_conn %></td>
+    <td><%= link_to 'Edit', edit_tst_conn_path(tst_conn) %></td>
+    <td><%= link_to 'Destroy', tst_conn, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New tst_conn', new_tst_conn_path %>

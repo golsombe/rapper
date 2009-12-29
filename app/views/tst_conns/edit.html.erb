@@ -1,0 +1,20 @@
+<h1>Editing tst_conn</h1>
+
+<% form_for(@tst_conn) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :connection %><br />
+    <%= f.text_field :connection %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @tst_conn %> |
+<%= link_to 'Back', tst_conns_path %>

@@ -1,5 +1,5 @@
-<select>
+<select id="<%=id%>" onchange="window.navigate('http://localhost:3000/package_sources/get_fields_from_table/2?tbl=' + this.value)")>
 <%@source_tables.each do |src_table|%>
-	<option value="#{src_table}"><%=src_table%></option>
+	<option value="<%=src_table%>"><%=src_table%></option>
 <%end %>
 </select>

@@ -1,0 +1,8 @@
+<h2><%=params["tbl"].camelcase%></h2>
+<div id="fields" style="border:1px solid black;width:20%">
+<% @source_fields.each do |column|%>
+	<% if not ["id","created_at","created_by","updated_by","updated_at"].include?(column.name) %>
+	<input type="checkbox" value="<%=column.name%>"><%=column.name%></input><br/>
+	<%end%>
+<%end%>
+</div>
